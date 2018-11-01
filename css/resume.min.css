@@ -23,3 +23,14 @@
   margin-left: -0.36em;
   margin-right: -0.15em;
 }
+
+.button {
+    background-color: #602060;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

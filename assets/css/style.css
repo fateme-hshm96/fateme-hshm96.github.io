@@ -125,7 +125,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: pink;}
 
 li { list-style: none; }
 
@@ -338,7 +338,7 @@ main {
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-3);
+  font-size: var(--fs-5);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
@@ -504,8 +504,16 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { 
+  font-size: var(--fs-4);
+  text-align: justify;
+  margin-bottom: 16px; 
+}
 
+.about-text a { 
+  display: inline;
+  color: pink;
+}
 
 
 /**
@@ -787,6 +795,13 @@ main {
 
 .timeline-item { position: relative; }
 
+.timeline-item a { display: inline; }
+
+.timeline-item p { 
+  color: aliceblue;
+  font-weight: 500;
+}
+
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
@@ -829,6 +844,15 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text a {
+  display: inline;
+  color: pink;
+}
+
+/* .timeline-text b {
+  margin: 10px;
+  white-space: pre-line;
+} */
 
 /**
  * skills 
@@ -836,7 +860,7 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-list { padding: 15px; }
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
@@ -1162,6 +1186,32 @@ main {
   outline: none;
 }
 
+.pubs_text {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 13px 10px;
+  border: 1px solid var(--jet);
+  text-align: justify;
+  border-radius: 14px;
+  outline: none;
+}
+
+.interests p {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  outline: none; 
+}
+
+.pubs_text u {
+  font-size: var(--fs-5);
+}
+
+.pubs_text i {
+  font-size: var(--fs-5);
+}
+
 .form-input::placeholder { font-weight: var(--fw-500); }
 
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
@@ -1418,8 +1468,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .content-card {
-    padding: 30px;
-    padding-top: 25px;
+    padding: 25px;
+    padding-top: 20px;
   }
 
   .testimonials-avatar-box {
@@ -1498,7 +1548,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     left: -43px;
   }
 
-  .skills-item:not(:last-child) { margin-bottom: 25px; }
+  .skills-item:not(:last-child) { margin-bottom: 10px; }
 
 
 

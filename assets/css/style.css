@@ -1052,6 +1052,16 @@ main {
 
 
 
+/*-----------------------------------*\
+  #ADDED
+\*-----------------------------------*/
+
+/* CSS to wrap text around the image */
+.wrap_image img {
+float: left; /* Float the image to the left side */
+margin-right: 10px; /* Add a small margin to separate the text from the image */
+}
+
 
 
 /*-----------------------------------*\

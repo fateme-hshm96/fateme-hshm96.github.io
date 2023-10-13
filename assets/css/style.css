@@ -1197,6 +1197,7 @@ margin-right: 10px; /* Add a small margin to separate the text from the image */
 }
 
 .pubs_text {
+  cursor: auto;
   color: var(--white-2);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);

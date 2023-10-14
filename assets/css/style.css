@@ -125,7 +125,8 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; color: pink;}
+/* a { text-decoration: none; color: pink;} */
+a { text-decoration: none; color: goldenrod;}
 
 li { list-style: none; }
 
@@ -512,7 +513,8 @@ main {
 
 .about-text a { 
   display: inline;
-  color: pink;
+/*   color: pink; */
+  color: goldenrod;
 }
 
 
@@ -846,7 +848,8 @@ main {
 
 .timeline-text a {
   display: inline;
-  color: pink;
+/*   color: pink; */
+  color: goldenrod;
 }
 
 /* .timeline-text b {

@@ -371,7 +371,11 @@
               </br>
                 <div class="square"> 
                   <div>
-                    <img style="float: right; margin: 15px;" src="assets/images/CoT.jpeg" alt="Standing by your words" width="350" height="313">
+                    <figure style="float: right; margin: 15px; text-align: center;">
+                            <img src="assets/images/CoT.jpeg" alt="Standing by your words" width="350" height="313">
+                            <figcaption style="color: white; font-size: 12px;">Image credit: [DALL.E 3]</figcaption>
+                        </figure>
+                    <!-- <img style="float: right; margin: 15px;" src="assets/images/CoT.jpeg" alt="Standing by your words" width="350" height="313"> -->
                   </div>
                   <p style="line-height: 1.7; color: white; text-align: justify; font-size: 15px;">  
                     Chain-of-thought is an effective method in tasks requiring multi-step reasoning, like arithmetic and logic. Here, we aim to understand whether large language models genuinely use these thought chains for decision-making or if they are just auxiliary outputs.

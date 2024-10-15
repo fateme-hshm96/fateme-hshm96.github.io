@@ -360,7 +360,7 @@
               <div class="title-wrapper">
                 
                   <p style="color: white; text-align: justify; font-size: 19px;"> 
-                    <b> Are Chain-of-Thought Prompts Truly Integral to LLM Decision-Making? </b> 
+                    <b> Do Generated Chain-of-Thoughts Truely Mirror LLM Decision Making? </b> 
 		      </br>
 		      Fall 2024
                     <!-- <a href="https://openreview.net/forum?id=8BR8EaWNTZ" target="_blank">

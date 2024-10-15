@@ -1,40 +1,1070 @@
-Fateme
+<!DOCTYPE html>
+<html lang="en">
 
-# sidebar
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fateme</title>
 
-alt = Richard hanrick
-Fateme Hashemi Chaleshtori
-CS Ph.D. Student @ UofU
+  <!--
+    - favicon
+  -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon2.ico">
 
-Show Contacts
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-Email
-fateme@cs.utah.edu
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-Location
-Salt Lake City, Utah, USA
+<body>
 
-# navbar
+  <!--
+    - #MAIN
+  -->
 
-About
-Resume
-Publications
-Contact
+  <main>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    
+    <!--
+      - #SIDEBAR
+    -->
 
-# about
+    <aside class="sidebar" data-sidebar>
 
-About me
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-fateme6.jpg" alt="Fateme Hashemi Chaleshtori" width="150">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Fateme Hashemi Chaleshtori">Fateme Hashemi Chaleshtori</h1>
+
+          <p class="title">CS Ph.D. Student @ UofU</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:fateme.hashemi@utah.edu" class="contact-link">fateme [dot] hashemi [at] utah.edu</a>
+            </div>
+
+          </li>
+
+          <!-- EXTRA INFO -->
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+          <!-- --- -->
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Salt Lake City, Utah, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+                <ul class="social-list">
+		  <!-- https://icon-sets.iconify.design/mdi/instagram/ -->
+		  
+		  <!-- -------------------------------------------------------- -->
+		  <!-- UNUSED -->
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li> -->
+
+         <!--  <li class="social-item">
+            <a href="https://twitter.com/fatemehc__" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+           
+		  <!-- -------------------------------------------------------- -->
+		  <!-- LINKEDIN -->
+
+          <!-- <li class="social-item">
+            <a href="https://www.linkedin.com/in/fatemehc/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/fatemehc/" target="_blank" class="social-link">
+              <iconify-icon icon="ri:linkedin-line"></iconify-icon>
+            </a>
+          </li>
+
+		  <!-- -------------------------------------------------------- -->
+		  <!-- SEMANTIC SCHOLAR -->
+
+          <li class="social-item">
+            <a href="https://www.semanticscholar.org/author/Fateme-Hashemi-Chaleshtori/2083451204" target="_blank" class="social-link">
+              <iconify-icon icon="simple-icons:semanticscholar"></iconify-icon>
+            </a>
+          </li>
+
+		  <!-- -------------------------------------------------------- -->
+		  <!-- GOOGLE SCHOLAR -->
+
+          <!-- <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=659VkF8AAAAJ&hl=en" target="_blank" class="social-link">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li> -->
+
+          
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=659VkF8AAAAJ&hl=en" target="_blank" class="social-link">
+              <iconify-icon icon="academicons:google-scholar"></iconify-icon>
+            </a>
+          </li>
+
+		  <!-- -------------------------------------------------------- -->
+		  <!-- INSTAGRAM -->
+          
+          <!-- <li class="social-item">
+            <a href="https://www.instagram.com/faapics/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+          
+          <li class="social-item">
+            <a href="https://www.instagram.com/faapics/" target="_blank" class="social-link">
+              <iconify-icon icon="ant-design:instagram-outlined"></iconify-icon>
+            </a>
+          </li>
+
+		  <!-- -------------------------------------------------------- -->
+
+        </ul>
+
+      </div>
+
+    </aside>
 
 
 
-# contact
 
-Contact
+    <!--
+      - #main-content
+    -->
 
-Contact Form
+    <div class="main-content">
 
-Full name
-Email address
-Your Message
+      <!--
+        - #NAVBAR
+      -->
 
-Send Message
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a second-year <a href="https://www.cs.utah.edu">Computer Science</a> Ph.D. student at the <a href="https://www.utah.edu">University of Utah</a>, interested in the applications of natural language processing for social good. My research primarily focuses on Explainable AI (XAI), 
+            exploring how AI aided by additional explanatory information can better serve different domains such as healthcare. I am advised by <a href="https://www.anamarasovic.com/" target="_blank">Dr. Ana Marasović</a>.
+          </p>
+
+          <p>
+            I earned my CS Master's degree from <a href="https://compsci.colostate.edu">Colorado State University</a> and obtained my B.Sc. in Computer Engineering 
+            from <a href="https://ce.aut.ac.ir">Amirkabir University of Technology</a> in Tehran, Iran.
+            In my spare time, I enjoy hiking, photography, cooking, and sometimes painting.
+          </p>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <!-- <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div> -->
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+        <!--
+          - Button???!
+        -->
+
+      <section class="projects">
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select></button>
+
+        </div>
+
+      </section>
+
+      
+
+
+
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="resume" data-page="research">
+        <header>
+          <h2 class="h2 article-title">Work in progress</h2>
+        </header>
+
+        <section>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                
+                  <p style="color: white; text-align: justify; font-size: 19px;"> 
+                    <b> Are Chain-of-Thought Prompts Truly Integral to LLM Decision-Making? </b> 
+		      </br>
+		      Fall 2024
+                    <!-- <a href="https://openreview.net/forum?id=8BR8EaWNTZ" target="_blank">
+                      XAIA NeurIPS 2023 Workshop
+                    </a> -->
+                  </p> 
+
+              </br>
+                <div class="square"> 
+                  <div>
+                    <img style="float: right; margin: 15px;" src="assets/images/CoT.jpeg" alt="Standing by your words" width="350" height="313">
+                  </div>
+                  <p style="line-height: 1.7; color: white; text-align: justify; font-size: 15px;">  
+                    Chain-of-thought is an effective method in tasks requiring multi-step reasoning, like arithmetic and logic. Here, we aim to understand whether large language models genuinely use these thought chains for decision-making or if they are just auxiliary outputs.
+
+                    To investigate this, we manipulate the knowledge in the model to determine if the CoT is integral to the model's decision-making. This approach offers insights into the alignment between a model’s reasoning process and its generated output, with potential implications for designing more transparent AI systems.
+                  </p>
+                </div>
+                  
+                
+              </div>
+            </li>
+
+        </section>
+
+      </article>
+
+
+      <!-- ---------- OLD PROJECT ---------- -->
+      <!-- <article class="resume" data-page="research">
+        <header>
+          <h2 class="h2 article-title">Work in progress</h2>
+        </header>
+
+        <section>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                
+                  <p style="color: white; text-align: justify; font-size: 19px;"> 
+                    <b> On Evaluating Explanation Utility for Human-AI Decision-Making in NLP </b> 
+          </br>
+          Fall 2023
+                    <a href="https://openreview.net/forum?id=8BR8EaWNTZ" target="_blank">
+                      XAIA NeurIPS 2023 Workshop
+                    </a>
+                  </p> 
+
+              </br>
+                <div class="square">
+                  <div>
+                    <img style="float: right; margin: 15px;" src="assets/images/human-ai-colab.png" alt="Human-AI collaboration" width="140" height="125">
+                  </div>
+                  <p style="line-height: 1.7; color: white; text-align: justify; font-size: 15px;">  
+                    
+                    We can use imperfect AI models effectively if we can determine when they are correct. 
+                    To achieve this, providing explanations has been suggested, hoping that these explanations can illuminate the reasoning process of the AI models. 
+                    Past work in the explainability field primarily concentrated on technical challenges and proxy evaluations, leading to a gap in human-centered evaluations of explanations. 
+                    As explainability methods advance beyond the proof-of-concept stage, our work aims to offer guidelines for navigating this evolving landscape, drawing upon over 50 existing datasets. 
+                    We assess the suitability of these datasets for application-grounded evaluation of the explanations’ usefulness in real-world high-stakes situations.
+                    Furthermore, we emphasize the importance of adapting task setups to reflect realistic scenarios (such as incorporating text retrieval components), 
+                    reevaluating the performance of backbone models in the fast-evolving NLP field, 
+                    and refining experimental protocols to accurately measure the impact of explanations on human reliance and human-AI team performance. 
+                    Our work provides a practical approach for future research in human-centered evaluation of the efficacy of various explanations in real-world situations.
+        Combining the gathered insights, analyses, and developed models, the next phase is evaluating the explanations for the four datasets that are proven to be suitable through our meta-analysis.
+                  </p>
+                </div>
+                  
+                
+              </div>
+            </li>
+
+        </section>
+
+      </article>
+ -->
+      
+                  
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!--
+        - #PUBLICATIONS
+      -->
+
+      <article class="resume" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <!-- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications and Manuscripts</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TITLE</h4>
+
+              <span>YEAR</span>
+
+              <p class="timeline-text">
+                DESCRIPTION
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+        <section>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> 
+                  <u>Hashemi Chaleshtori, Fateme</u>, Ghosal, A., Gill, A., Bambroo, P., Ana Marasović, A. (Oct. 2024). 
+                  </br>
+                  <i>”On Evaluating Explanation Utility for Human-AI Decision Making in NLP”</i>. 
+                  </br>
+                  Findings of the Association for Computational Linguistics: EMNLP 2024
+                </br>
+                <a href="https://arxiv.org/abs/2407.03545" target="_blank">Link to paper</a>
+                </p>
+                  <!-- ••• -->
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> 
+                  Salek Faramarzi, N.<sup>*</sup>, <u>Hashemi Chaleshtori, Fateme<sup>*</sup></u>,  Shirazi, H., Banerjee, R., & Ray, I. (Apr. 2023). 
+                  </br>
+                  <i>”Claim Extraction and Dynamic Stance Detection in COVID-19 Tweets”</i>. 
+                  </br>
+                  Companion Proceedings of the ACM Web Conference. (*equal contribution)
+                </br>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3543873.3587643" target="_blank">Link to paper</a>
+                </p>
+                  <!-- ••• -->
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> 
+                  <u>Hashemi Chaleshtori, Fateme</u>  & Ray, I. (Dec. 2022). 
+                  </br>
+                  <i>”Automation of Vulnerability Information Extraction Using 
+                  Transformer-Based Models of Natural Language Processing”</i>.
+                  </br> 
+                  European Symposium on Research in Computer Security (ESORICS 2022) Workshop on System Security Assurance (SecAssure 2022).
+                  </br>
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-031-25460-4_37" target="_blank">Link to paper</a>
+                </p>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> 
+                  Zou, C., Banerjee R., <u>Hashemi Chaleshtori, Fateme</u> Shirazi, H., & Ray, I. (Aug. 2021).
+                  </br>
+                   <i>”Seeing Should Probably not be Believing: The Role of Deceptive Support in COVID-19 Misinformation on Twitter”. </i>. 
+                   </br>
+                  Journal of Data and Information Quality
+                  </br>
+                  <a href="https://dl.acm.org/doi/full/10.1145/3546914" target="_blank">Link to paper</a>
+                </p>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> Rahimi, M., Shirazi, M., NajafGholian, A., <u>Hashemi Chaleshtori, Fateme</u>, Moradi, N., Behzad, K., Roodabeh, S. H.,
+                  Gavahi, A., Moghadam, F. F., GhaziAsgar, A., AlizadehGharib, Y., Memarian, M., Tavakoli, H. & Khosravi, M. A.
+                  </br>
+                  <i>”Parsian 2018 Extended Team Description Paper for RoboCup”</i>. 
+                  </br>
+                  International RoboCup Symposium.
+                  </br>
+                  <a href="https://ssl.robocup.org/wp-content/uploads/2019/01/2018_ETDP_Parsian.pdf" target="_blank">Link to report</a>
+                </p>
+                  <!-- ••• -->
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <p class="pubs_text"> Rahimi, M., Shirazi, M., Arfaee, M., NajafGholian, A., Zamani, A., Hosseini, H., <u>Hashemi Chaleshtori, Fateme</u>, 
+                  Moradi, N., Ahsani, A., Jafari, M., Zahedi, A., Abdollahi, P. & Khosravi, M. A.
+                  </br>
+                  <i>”Parsian 2017 Extended Team Description Paper for RoboCup”</i>. 
+                  </br>
+                  International RoboCup Symposium.
+                  </br>
+                  <a href="https://d1wqtxts1xzle7.cloudfront.net/76841505/2017_ETDP_Parsian-libre.pdf?1639933406=&response-content-disposition=inline%3B+filename%3DPARSIAN_2017_Extended_Team_Description_P.pdf&Expires=1695429386&Signature=KRDBbG9Ypa7u8JiL8hu12U8e8p5TQoVJ1sLlQna1onxOZmI6sVJrpQQBJYHzoL~6aXgJ~7-6HyGq8nVFrhaM6ppXionEVNUf3yWh3mx3ZvtoMN2OwPyA6fxhDOoT~a5h7w2eebf5FCrzxJVvNl~TGkMUGgtDf2mV-pBLR~kBPpdL~i-4LkMSjqKmZ2UkMWmJxNQ9RM9HFobutg-h5HjMhY0~LPHaU4Ng42G2xOYqCcvvzZnUfDKLp3vxekdpIbZh~IgUrxOwCal-uBEiuc2okBGX9j69BLxLwOe-WgIPqxzCXudyxvXqfTdQkfxDbBrmu8u79mgQklBs~9QkseqouA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" target="_blank">Link to report</a>
+                </p>
+                  <!-- ••• -->
+              </div>
+            </li>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      
+
+      
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research Interests</h3>
+          </div>
+          
+          <!-- <ul class="skills-list content-card">
+            <p class="timeline-text">Natural Language Processing, Explainable AI, Computing for Social Good</p>
+          </ul> -->
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><p font-weight="900" class="timeline-text">Natural Language Processing</p></li>
+            <li class="timeline-item"><p class="timeline-text">Explainable AI (XAI)</p></li>
+            <li class="timeline-item"><p class="timeline-text">Computing for Social Good</p></li>
+          </ol>
+
+        </section>
+        
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Utah</h4>
+
+              <span>2022 — 2026 (expected)</span>
+
+              <p class="timeline-text">
+                <a href="https://www.cs.utah.edu" target="_blank">Kahlert School of Computing</a> - Computer Science - Ph.D.
+                </br>
+                Advisor: <a href="https://www.anamarasovic.com/" target="_blank">Dr. Ana Marasović</a>
+<!--                 </br> 
+                     GPA: 3.8/4 -->
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colorado State University</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                <a href="https://compsci.colostate.edu/" target="_blank">Department of Computer Science</a> - M.S.
+                </br>
+                Thesis: COVID-19 Misinformation Detection in Twitter Through Authentic News Citation Detection
+                </br>
+                Advisor: <a href="https://www.cs.colostate.edu/~iray/" target="_blank">Dr. Indrakshi Ray</a>
+                </br>
+                GPA: 3.91/4
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Amirkabir University of Technology</h4>
+
+              <span>2014 — 2019</span>
+
+              <p class="timeline-text">
+                <a href="https://ce.aut.ac.ir/index.php?sid=4&slc_lang=en" target="_blank">Computer Eng. and I.T. Dept.</a> - Computer Systems Architecture - B.Sc.
+                </br>
+                Thesis: Parallelizing Anomaly Detection in Smart Home Activities
+                </br>
+                Advisor: <a href="https://scholar.google.com/citations?user=eqX0aK8AAAAJ&hl=en" target="_blank">Dr. Maryam Amir Haeri</a>
+                </br>
+                GPA: 16.79/20 (3.48/4)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Honors and Awards</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Student Fellowship</h4>
+
+              <span>2022 - 2023</span>
+
+              <p class="timeline-text">
+                School of Computing, University of Utah, Salt Lake City, UT
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Scholarship, ACM Richard Tapia Celebration of Diversity in Computing</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Washington, D.C.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ranked 4th with Parsian Robotics Group in <a href="https://ssl.robocup.org/robocup-2017-results/" target="_blank">RoboCup Competitions</a> </h4>
+
+              <span>2017</span>
+
+              <p class="timeline-text">
+                Small Size Soccer League, Nagoya, Japan
+              </p>
+
+            </li>
+
+          
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Fully-funded Research Assistantship</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Department of Computer Science, Colorado State University, Fort Collins, CO, 
+              </p>
+
+            </li> -->
+            
+
+          </ol>
+
+        </section>
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Services</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Reviewer</h4>
+
+              <span>2021 & 2022</span>
+
+              <p class="timeline-text">
+                The Web Conference
+              </p>
+              <span>2022</span>
+
+              </br> <!-- ------------------------ -->
+
+              <p class="timeline-text">
+                Conference on Data and Application Security and Privacy
+              </p>
+
+              </br> <!-- ------------------------ -->
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                IEEE Transactions on Power Systems
+              </p>
+
+              </br> <!-- ------------------------ -->
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Australasian Conference on Information Security and Privacy
+              </p>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">President</h4>
+  
+                <span>2021 - 2022</span>
+  
+                <p class="timeline-text">
+                  <a href="https://wicyscsu.wordpress.com" target="_blank">Women in CyberSecurity chapter at Colorado State University</a>
+                </p>
+  
+              </li>
+
+            </li>
+
+            <!-- ------------------------------------------------------------------------ -->
+
+            
+          </ol>
+
+        </section>
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Teaching Experiences</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mentor</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                <a href="https://scholars.stemchats.org" target="_blank">i-STEM Scholar for 1st-generation, low-income, and underrepresented young students</a>
+              </p>
+
+              </br> <!-- ------------------------ -->
+
+              <span>2020 - 2021</span>
+
+              <p class="timeline-text">
+                Ten undergraduate students working on NLP projects
+              </p>
+
+            </li>
+
+            <!-- ------------------------------------------------------------------------ -->
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                <a href="https://www.cs.colostate.edu/~cs356/" target="_blank">System Security</a>, Colorado State University
+              </p>
+              
+              </br> <!-- ------------------------ -->
+              
+              <span>2020</span>
+
+              <p class="timeline-text">
+                <a href="https://www.cs.colostate.edu/~cs152/" target="_blank">Introduction to Programming with Python</a>, Colorado State University
+              </p>
+
+              </br> <!-- ------------------------ -->
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                <a href="https://www.cs.colostate.edu/~cs475/" target="_blank">Parallel Programming</a>, Colorado State University
+              </p>
+
+              </br> <!-- ------------------------ -->
+                
+              <span>2015 & 2016</span>
+
+              <p class="timeline-text">
+                Principles of Programming, Amirkabir University of Technology
+              </p>
+
+              </br> <!-- ------------------------ -->
+                  
+              <span>2016</span>
+
+              <p class="timeline-text">
+                Data Structure and Algorithms, Amirkabir University of Technology
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+                  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Extracurricular Activities - commented %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --> 
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <!-- <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Extracurricular Activities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Treasurer of Iranian Student Organization, Colorado State University</h4>
+
+              <span>2021</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Executive Member of Amirkabir Robotics & A.I. Technology Festival (AUTCUP), Amirkabir University of Technology</h4>
+
+              <span>2016</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Elected as a Member of Students’ Union, Dept. of Computer Engineering, Amirkabir University of Technology</h4>
+
+              <span>2015</span>
+
+            </li>
+
+          </ol>
+
+        </section> -->
+
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+      
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193365.90008687263!2d-112.08529467361228!3d40.77649071795839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1695427261209!5m2!1sen!2sus" 
+              width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+          </figure>
+          
+        </section>
+
+        <section class="contact-form">
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="mailto:fateme@cs.utah.edu" class="contact-link">firstname@cs.utah.edu</a>
+          </div>
+
+          <!-- <h3 class="h3 form-title">Contact Form</h3> -->
+          
+          <!-- <form action="process_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Submit">
+          </form> -->
+
+
+          <!-- <form action="http://formspree.io/fateme@cs.utah.edu" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" id="name" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" id="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form> -->
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

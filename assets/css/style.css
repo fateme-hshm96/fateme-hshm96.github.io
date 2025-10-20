@@ -1223,6 +1223,10 @@ margin-right: 10px; /* Add a small margin to separate the text from the image */
   font-size: var(--fs-5);
 }
 
+.pubs_text a {
+  display: inline
+}
+
 .pubs_text i {
   font-size: var(--fs-5);
 }
